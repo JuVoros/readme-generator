@@ -1,6 +1,5 @@
 d = new Date();
-
-// Render title and description
+// title and description
 const renderTitle = (title, github, repo, license) => {
   let badge = '';
   if (license === 'Unlicensed') {
@@ -23,7 +22,7 @@ const renderTitle = (title, github, repo, license) => {
 `;
 };
 
-// Render table of contents with contributors 
+// Table of contents 
 const renderTOC = creditBool => {
   if (creditBool) {
     return `
@@ -54,7 +53,7 @@ const renderTOC = creditBool => {
   };
 };
 
-//license based on user input
+//user input for license
 const renderLicense = (license, name) => {
   if (license === 'Unlicensed') {
     return `
@@ -142,7 +141,7 @@ const renderQuestions = (github, email) => {
 ## Questions
 For further questions and comments, please reach out through [GitHub](https://github.com/${github}) or via email at ${email}.`;
 };
-
+// MArkdown function
 function generateMarkdown(data) {
   //  title
   const title = renderTitle(data.title, data.github, data.repo, data.license);
