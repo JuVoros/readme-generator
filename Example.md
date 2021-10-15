@@ -1,12 +1,13 @@
 
-<h1 align="center"><strong>ReadME-Generator</strong></h1>
+<h1 align="center"><strong>readme-generator</strong></h1>
 <p align="center">
   <img src="https://img.shields.io/github/languages/top/JuVoros/readme-generator">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg">
 </p>
 
 # Description
-This tool uses the JS commmand line to create a readme markdown file that a user customizes.
+
+
 
 # Table of Contents
 1. [Installation](#installation)
@@ -19,7 +20,7 @@ This tool uses the JS commmand line to create a readme markdown file that a user
 # Installation
 This application uses Node and NPM, which are required to make this fully functional.
 # Usage
-This readme generator is made with a simple command line program. Once started and initialized, the user will get several questions which when properly filled out will get a user personalized readme.md file with a basic structure.
+This readme generator is made with a simple command line program. Once started and initialized, the user will get several questions which when properly filled out will give the user a personalized readme.md file with a basic structure and skeleton.
 Questions that will be asked:
 
 * Name
