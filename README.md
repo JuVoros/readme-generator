@@ -6,7 +6,7 @@
 </p>
 
 # Description
-
+This project is a command line operation that builds a user customized readme file that anyone can use as long as they have node and NPM.
 
 
 # Table of Contents
